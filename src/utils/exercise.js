@@ -122,6 +122,6 @@ export const isValidStudentId = (studentId) => {
 
 export const getExercise = (studentId, exerciseNumber) => {
     const hackedCase = {"vi": "Bạn hack thành công", "en": "Successfully hacked", "solution": ""};
-    if (!isValidStudentId) return hackedCase;
+    if (!isValidStudentId(studentId)) return hackedCase;
     return exercise[exerciseNumber][BigInt(studentId) % BigInt(exercise[exerciseNumber].length)];
 }
