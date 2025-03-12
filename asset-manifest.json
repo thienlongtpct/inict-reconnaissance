@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/inict-reconnaissance/static/js/main.cc872f5e.js",
+    "index.html": "/inict-reconnaissance/index.html",
+    "main.cc872f5e.js.map": "/inict-reconnaissance/static/js/main.cc872f5e.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.cc872f5e.js"
+  ]
+}
